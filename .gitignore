@@ -1,0 +1,21 @@
+# Secretos — NUNCA subir al repo
+.env
+nginx/.htpasswd
+
+# Dependencias
+frontend/node_modules/
+frontend/dist/
+
+# Python
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.venv/
+
+# Uploads y datos locales
+backend/uploads/
+backend/history/
+
+# OS
+.DS_Store
+Thumbs.db
